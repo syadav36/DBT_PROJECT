@@ -1,0 +1,14 @@
+sources:
+  - name: RRM_PROD_DB1
+    database: RRM_PROD_DB
+    schema: CONSUMER_INSIGHTS_SCHEMA_PROD
+    config:
+      enabled: true
+    tables:
+      - name: LABELS  # enabled
+      - name: ignore_this_one  # not enabled
+        config:
+          enabled: false
+
+
+        
